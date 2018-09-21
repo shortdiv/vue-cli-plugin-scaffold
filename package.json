@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-scaffold",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A basic scaffold for creating vue cli plugins within your project",
   "scripts": {
     "test": "jest"
