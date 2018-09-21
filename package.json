@@ -1,0 +1,44 @@
+{
+  "name": "vue-cli-plugin-scaffold",
+  "version": "1.0.0",
+  "description": "A basic scaffold for creating vue cli plugins within your project",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "setupFiles": [
+      "<rootDir>/scripts/testSetup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "./generator/template/",
+      "./generator/generator.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shortdiv/vue-cli-plugin-scaffold.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "vue-cli-plugin",
+    "plugin",
+    "cli"
+  ],
+  "author": "Divya Sasidharan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shortdiv/vue-cli-plugin-scaffold/issues"
+  },
+  "homepage": "https://github.com/shortdiv/vue-cli-plugin-scaffold#readme",
+  "dependencies": {
+    "@vue/cli": "^3.0.1",
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/cli-test-utils": "^3.0.1",
+    "chalk": "^2.4.1",
+    "jest": "^23.5.0",
+    "vue": "^2.5.17"
+  }
+}
